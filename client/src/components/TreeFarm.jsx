@@ -25,6 +25,7 @@ const TreeFarm = () => {
         overflow: 'hidden',
         position: 'relative',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        marginBottom: '280px',
     };
 
     const imageStyle = {
@@ -67,20 +68,19 @@ const TreeFarm = () => {
 
     const textContainerStyle = {
         position: 'absolute',
-        top: '10%',
-        width: '80%',
+        top: '0',
+        width: '100%',
         textAlign: 'center',
         color: 'beige',
         fontFamily: 'Space Mono',
         fontSize: '24px',
         fontWeight: 'bolder',
+        overflow: 'hidden',
+        animation: 'typing 5s steps(40, end)',
     };
 
     return (
         <div style={containerStyle}>
-            <div style={textContainerStyle}>
-                <h1>Welcome to the Harvey Tree Farm</h1>
-            </div>
             <div style={carouselContainerStyle}>
                 <Carousel
                     showArrows={false}
@@ -111,6 +111,9 @@ const TreeFarm = () => {
                 <div style={rightButtonStyle}>
                     <FaChevronRight style={buttonIconStyle} />
                 </div>
+            </div>
+            <div style={textContainerStyle}>
+                <h1>Welcome to the Harvey Tree Farm</h1>
             </div>
         </div>
     );
