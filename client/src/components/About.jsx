@@ -37,7 +37,7 @@ const About = () => {
               _hover={{ transform: "scale(1.05)" }}
             />
             <Box p="6">
-              <Heading size="lg" mb="4" textShadow="1px 1px 3px rgba(0,0,0,0.7)">
+              <Heading size="lg" mb="4">
                 Our Mission
               </Heading>
               <Text fontSize="md" textShadow="1px 1px 2px rgba(0,0,0,0.5)">
@@ -48,7 +48,7 @@ const About = () => {
 
           <Flex direction={{ base: "column-reverse", md: "row" }} align="center">
             <Box p="6">
-              <Heading size="lg" mb="4" textShadow="1px 1px 3px rgba(0,0,0,0.7)">
+              <Heading size="lg" mb="4">
                 Our History
               </Heading>
               <Text fontSize="md" textShadow="1px 1px 2px rgba(0,0,0,0.5)">
@@ -77,7 +77,7 @@ const About = () => {
               _hover={{ transform: "scale(1.05)" }}
             />
             <Box p="6">
-              <Heading size="lg" mb="4" textShadow="1px 1px 3px rgba(0,0,0,0.7)">
+              <Heading size="lg" mb="4">
                 Our Team
               </Heading>
               <Text fontSize="md" textShadow="1px 1px 2px rgba(0,0,0,0.5)">
