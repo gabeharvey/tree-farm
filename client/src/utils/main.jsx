@@ -4,6 +4,7 @@ import './index.css'
 import { ChakraProvider } from "@chakra-ui/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TreeFarm from '../components/TreeFarm.jsx';
+import About from '../components/About.jsx'
 
 const router = createBrowserRouter([
   { path: '/',
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <TreeFarm />
+      },
+      {
+        path: "about",
+        element: <About />
       }
     ]
   }
