@@ -46,7 +46,6 @@ const Navbar = () => {
               <Link display="block" color="beige" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Home</Link>
               <Link display="block" color="beige" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>About</Link>
               <Link display="block" color="beige" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Services</Link>
-              <Link display="block" color="beige" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Contact</Link>
               <Link display="block" color="beige" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Gallery</Link>
             </DrawerBody>
           </DrawerContent>
