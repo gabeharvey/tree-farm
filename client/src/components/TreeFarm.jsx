@@ -8,7 +8,7 @@ const TreeFarm = () => {
         width: '100%',
         height: '100vh',
         overflow: 'hidden',
-        backgroundImage: 'url(/public/loblolly-pine.avif)',
+        backgroundImage: 'url(/loblolly-pine.avif)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
@@ -93,16 +93,16 @@ const TreeFarm = () => {
                     showIndicators={false}
                 >
                     <div>
-                        <img src="/public/joe-1.png" alt="Joe 1" style={imageStyle} />
+                        <img src="/joe-1.png" alt="Joe 1" style={imageStyle} />
                     </div>
                     <div>
-                        <img src="/public/joe-2.png" alt="Joe 2" style={imageStyle} />
+                        <img src="/joe-2.png" alt="Joe 2" style={imageStyle} />
                     </div>
                     <div>
-                        <img src="/public/lake.png" alt="Lake" style={imageStyle} />
+                        <img src="/lake.png" alt="Lake" style={imageStyle} />
                     </div>
                     <div>
-                        <img src="/public/fish.png" alt="Fish" style={imageStyle} />
+                        <img src="/fish.png" alt="Fish" style={imageStyle} />
                     </div>
                 </Carousel>
                 <div style={leftButtonStyle}>

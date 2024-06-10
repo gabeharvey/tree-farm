@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text, Image, VStack, Link } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image, VStack } from "@chakra-ui/react";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgImage="url('/public/loblolly-pine.avif')"
+        bgImage="url('/loblolly-pine.avif')"
         py="20"
       >
         <Box bg="rgba(0, 0, 0, 0.5)" p="10" borderRadius="md">
@@ -28,7 +28,7 @@ const About = () => {
         <VStack spacing="8" align="stretch">
           <Flex direction={{ base: "column", md: "row" }} align="center">
             <Image
-              src="/public/loblolly-pine-farm.png"
+              src="/loblolly-pine-farm.png"
               alt="Tree Farm"
               boxSize={{ base: "100%", md: "50%" }}
               borderRadius="md"
@@ -56,7 +56,7 @@ const About = () => {
               </Text>
             </Box>
             <Image
-              src="/public/black-and-white-lumber.png"
+              src="/black-and-white-lumber.png"
               alt="Tree Farm History"
               boxSize={{ base: "100%", md: "50%" }}
               borderRadius="md"
@@ -68,7 +68,7 @@ const About = () => {
 
           <Flex direction={{ base: "column", md: "row" }} align="center">
             <Image
-              src="/public/joe-1.png"
+              src="/joe-1.png"
               alt="Our Team"
               boxSize={{ base: "100%", md: "50%" }}
               borderRadius="md"
