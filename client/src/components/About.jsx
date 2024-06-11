@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Text, Image, VStack } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box fontFamily="Space Mono" color="beige" bg="#228B22" minHeight="100vh">
+    <Box fontFamily="Space Mono" color="beige" bg="skyblue" minHeight="100vh">
       <Flex
         direction="column"
         align="center"
@@ -11,14 +11,14 @@ const About = () => {
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
-        bgImage="url('/loblolly-pine.avif')"
+        bgImage="url('/loblolly-pine-seedling.png')"
         py="20"
       >
-        <Box bg="rgba(0, 0, 0, 0.5)" p="10" borderRadius="md">
-          <Heading size="xl" fontFamily="Mulish" textAlign="center" mb="4">
+        <Box bg="transparent" p="10" borderRadius="md">
+          <Heading size="xl" fontFamily="Mulish" textAlign="center" mb="4" color='white'>
             About Harvey Tree Farm
           </Heading>
-          <Text fontSize="lg" textAlign="center" mb="6">
+          <Text fontSize="lg" textAlign="center" mb="6" color='white'>
             We are dedicated to providing the highest quality loblolly pine trees used for lumber.
           </Text>
         </Box>
