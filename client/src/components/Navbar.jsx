@@ -13,7 +13,7 @@ const Navbar = () => {
       <Box display={{ base: "none", md: "block" }} fontFamily='Space Mono'>
         <Link color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr="6" href='/'>Home</Link>
         <Link color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr="6" href='/about'>About</Link>
-        <Link color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr="6">Services</Link>
+        <Link color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr="6" href='/services'>Services</Link>
         <Link color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr="6">Gallery</Link>
       </Box>
       <IconButton
@@ -44,7 +44,7 @@ const Navbar = () => {
             <DrawerBody>
               <Link display="block" color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose} href='/'>Home</Link>
               <Link display="block" color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose} href='/about'>About</Link>
-              <Link display="block" color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Services</Link>
+              <Link display="block" color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose} href='/services'>Services</Link>
               <Link display="block" color="228B22" _hover={{ textDecoration: "none", fontWeight: "bold", fontFamily: 'Space Mono', textShadow: "1px 1px 2px rgba(255,255,255,0.8)" }} py="2" onClick={onClose}>Gallery</Link>
             </DrawerBody>
           </DrawerContent>
