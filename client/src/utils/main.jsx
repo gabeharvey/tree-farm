@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TreeFarm from '../components/TreeFarm.jsx';
 import About from '../components/About.jsx'
 import Services from '../components/Services.jsx';
+import Gallery from '../components/Gallery.jsx';
 
 const router = createBrowserRouter([
   { path: '/',
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />
+      },
+      {
+        path: "gallery",
+        element: <Gallery />
       }
     ]
   }
