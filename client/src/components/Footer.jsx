@@ -11,7 +11,7 @@ const Footer = () => {
           <Text mt="2" fontSize="14px">Email: harvey544@gmail.com</Text>
         </Box>
         <Box display={{ base: "block", md: "flex" }} alignItems="center">
-          <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }}>Privacy Policy</Link>
+          <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }} href='/privacypolicy'>Privacy Policy</Link>
           <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }}>Terms of Service</Link>
           <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }}>Contact Us</Link>
         </Box>

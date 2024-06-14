@@ -7,6 +7,7 @@ import TreeFarm from '../components/TreeFarm.jsx';
 import About from '../components/About.jsx'
 import Services from '../components/Services.jsx';
 import Gallery from '../components/Gallery.jsx';
+import PrivacyPolicy from '../components/PrivacyPolicy.jsx';
 
 const router = createBrowserRouter([
   { path: '/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "gallery",
         element: <Gallery />
+      },
+      {
+        path: "privacypolicy",
+        element: <PrivacyPolicy />
       }
     ]
   }
