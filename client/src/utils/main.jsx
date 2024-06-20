@@ -8,6 +8,7 @@ import About from '../components/About.jsx'
 import Services from '../components/Services.jsx';
 import Gallery from '../components/Gallery.jsx';
 import PrivacyPolicy from '../components/PrivacyPolicy.jsx';
+import TermsOfService from '../components/TermsOfService.jsx';
 
 const router = createBrowserRouter([
   { path: '/',
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "privacypolicy",
         element: <PrivacyPolicy />
+      },
+      {
+        path: "termsofservice",
+        element: <TermsOfService />
       }
     ]
   }
