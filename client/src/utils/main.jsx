@@ -9,6 +9,7 @@ import Services from '../components/Services.jsx';
 import Gallery from '../components/Gallery.jsx';
 import PrivacyPolicy from '../components/PrivacyPolicy.jsx';
 import TermsOfService from '../components/TermsOfService.jsx';
+import ContactUs from '../components/ContactUs.jsx';
 
 const router = createBrowserRouter([
   { path: '/',
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "termsofservice",
         element: <TermsOfService />
+      },
+      {
+        path: "contactus",
+        element: <ContactUs />
       }
     ]
   }

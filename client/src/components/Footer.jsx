@@ -13,7 +13,7 @@ const Footer = () => {
         <Box display={{ base: "block", md: "flex" }} alignItems="center">
           <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }} href='/privacypolicy'>Privacy Policy</Link>
           <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }} href='/termsofservice'>Terms of Service</Link>
-          <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }}>Contact Us</Link>
+          <Link color="black" _hover={{ textDecoration: "none", fontWeight: "bold", textShadow: "1px 1px 2px rgba(255,255,255,0.8)", cursor: "pointer" }} mr={{ base: 0, md: 6 }} mb={{ base: 2, md: 0 }} href='/contactus'>Contact Us</Link>
         </Box>
       </Flex>
       <Text textAlign="center" mt="4" fontSize="12px">&copy; {new Date().getFullYear()} Harvey Tree Farm. All rights reserved.</Text>

@@ -6,7 +6,7 @@ const TermsOfService = () => {
         width: '100%',
         height: '100vh',
         overflow: 'hidden',
-        backgroundImage: 'url(/background-image.png)', // Add your background image here
+        backgroundImage: 'url(/background-image.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
@@ -51,7 +51,7 @@ const TermsOfService = () => {
                     <p>Welcome to the Harvey Tree Farm. These terms and conditions outline the rules and regulations for the use of our website and services.</p>
 
                     <h2>Introduction</h2>
-                    <p>By accessing this website, we assume you accept these terms and conditions in full. Do not continue to use Harvey Tree Farm's website if you do not accept all of the terms and conditions stated on this page.</p>
+                    <p>By accessing this website, we assume you accept these terms and conditions in full. Do not continue to use Harvey Tree Farm website if you do not accept all of the terms and conditions stated on this page.</p>
 
                     <h2>Intellectual Property Rights</h2>
                     <p>Unless otherwise stated, Harvey Tree Farm and/or its licensors own the intellectual property rights for all material on the website. All intellectual property rights are reserved. You may view and/or print pages from http://www.harveytreefarm.com for your own personal use subject to restrictions set in these terms and conditions.</p>
